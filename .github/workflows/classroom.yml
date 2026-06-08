@@ -16,7 +16,6 @@ jobs:
         with:
           repository: 'rantiquity/hw-1-tests'
           token: ${{ secrets.TESTS_DOWNLOAD_TOKEN }}
-          path: 'hidden-tests' # Складываем тесты в эту изолированную папку
 
       # 3. Разворачиваем среду R
       - name: Set up R
