@@ -33,4 +33,4 @@ jobs:
       # 5. Запускаем скрытые тесты. Файл студента solution.R будет виден скрипту.
       - name: Run hidden tests
         run: |
-          Rscript -e 'testthat::test_file("hidden-tests/test_hidden.R")'
+          Rscript -e 'testthat::test_file("test_hidden.R")'
